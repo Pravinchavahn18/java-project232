@@ -1,0 +1,12 @@
+#!/bin/bash
+
+sudo yum install httpd -y
+
+
+sudo systemctl enable httpd
+
+
+sudo systemctl restart httpd
+
+
+echo " welcome to hyderbad " > /var/www/html/index.html 
